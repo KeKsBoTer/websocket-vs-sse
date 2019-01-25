@@ -1,8 +1,12 @@
 # WebSocket vs Server-Sent Events Timing
-This project compares the timing difference between WebSockets and Server-Sent Events
+This project compares the timing difference between WebSockets and Server-Sent Events.
+
 It sends a counter back and forth between browser and webserver.
+
 For testing the WebSocket, it is used to send messages trough in both directions.
+
 For Server-Sent Events (SSE) the communication from browser to webserver utilizes HTTP requests.
+
 
 ## Results (client and server on same machine)
 |           | avg. send time | avg. receive time | total  |
